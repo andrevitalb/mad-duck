@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_customers_addresses",
+  "info": {
+    "displayName": "address",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "streetAddress": {
+      "type": "string",
+      "required": true
+    },
+    "exteriorNumber": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "aguascalientes",
+        "bajaCalifornia",
+        "bajaCaliforniaSur",
+        "campeche",
+        "cdmx",
+        "chiapas",
+        "chihuahua",
+        "coahuila",
+        "colima",
+        "durango",
+        "estadoDeMexico",
+        "guanajuato",
+        "guerrero",
+        "hidalgo",
+        "jalisco",
+        "michoacan",
+        "morelos",
+        "nayarit",
+        "nuevoLeon",
+        "oaxaca",
+        "puebla",
+        "queretaro",
+        "quintanaRoo",
+        "sanLuisPotosi",
+        "sinaloa",
+        "sonora",
+        "tabasco",
+        "tamaulipas",
+        "tlaxcala",
+        "veracruz",
+        "yucatan",
+        "zacatecas"
+      ],
+      "required": true
+    },
+    "zipCode": {
+      "type": "string",
+      "required": true
+    },
+    "reference": {
+      "type": "string"
+    },
+    "neighborhood": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
